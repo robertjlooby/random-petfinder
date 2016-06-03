@@ -1,0 +1,15 @@
+sudo: false # force container-based infrastructure
+language: node_js
+cache:
+  directories:
+    - tests/elm-stuff/build-artifacts
+node_js:
+  - "5"
+install:
+  - npm install -g elm@0.17.0
+before_script:
+  - cd test
+  - elm package install -y
+  - elm make AllTests.elm --output test.js
+script:
+  - node test.js
