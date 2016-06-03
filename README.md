@@ -1,5 +1,7 @@
 # Random Petfinder
 
+[![Build Status](https://travis-ci.org/robertjlooby/random-petfinder.svg?branch=master)](https://travis-ci.org/robertjlooby/random-petfinder)
+
 ## Running
 
 - `elm package install`
