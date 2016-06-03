@@ -1,0 +1,19 @@
+{
+  "name": "random-petfinder",
+  "version": "0.0.1",
+  "description": "Find a pet. Randomly.",
+  "author": "Robert Looby <robertjlooby@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertjlooby/random-petfinder"
+  },
+  "dependencies": {},
+  "scripts": {
+    "test": "./node_modules/gulp/bin/gulp.js"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-shell": "^0.5.2"
+  },
+  "license": "MIT"
+}
